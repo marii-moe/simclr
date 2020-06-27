@@ -1,12 +1,6 @@
-[submodule "selfie2anime"]
-	path = selfie2anime
-	url = git@github.com:marii-moe/selfie2anime.git
 [submodule "fastcore"]
 	path = fastcore
 	url = git@github.com:marii-moe/fastcore.git
 [submodule "fastai2"]
 	path = fastai2
 	url = git@github.com:marii-moe/fastai2.git
-[submodule "UGATIT"]
-	path = UGATIT
-	url = git@github.com:marii-moe/UGATIT-pytorch.git

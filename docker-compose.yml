@@ -1,0 +1,17 @@
+version: "3.7"
+services:
+  fastcore:
+    build: ./fastcore
+  fastai2:
+    build: ./fastai2
+  simclr:
+    build: ./simclr
+    volumes: 
+      - ~/.fastai/:/home/fast/.fastai/
+      - ~/Projects/simclr/simclr/project:/home/fast/fastai2/project
+    ports: 
+     - 8888:8888/tcp
+    ipc: host
+    device_requests:
+      - capabilities:
+        - "gpu"
